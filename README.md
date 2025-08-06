@@ -11,8 +11,7 @@
 - **Frontend**: React.js, Tailwind CSS
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB
-- **Authentication**: JWT
-- **Deployment**: Netlify (Frontend), Railway (Backend)
+- **Deployment**: Netlify (Frontend)
 
 ## 📦 Features
 
