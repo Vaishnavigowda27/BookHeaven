@@ -1,35 +1,33 @@
 # 📚 BookHeaven
 
-BookHeaven is a full-stack MERN (MongoDB, Express.js, React, Node.js) application designed for browsing, reviewing, and purchasing books online. The application features a beautiful frontend interface and a powerful backend, making it easy to explore and manage a book catalog.
+**BookHeaven** is a full-stack MERN (MongoDB, Express, React, Node.js) application that allows users to browse, search, and manage books. It includes user authentication, a dynamic frontend with Tailwind CSS, and a secure backend API.
 
-> 🌐 Live Demo: [BookHeaven on Netlify](https://enchanting-wisp-fa68bf.netlify.app/)
+## 🌐 Live Demo
 
----
+🔗 [Visit BookHeaven](https://bookheaven-project.netlify.app/)
 
-## 🚀 Features
+## 🛠️ Tech Stack
 
-- 🏠 Beautiful landing page with responsive UI
-- 🔍 Search and filter books
-- 📚 Browse books with title, author, ratings
-- 🛒 Add to cart functionality
-- 🖼️ Fallback image for missing book covers
-- 🔧 Admin can manage books (optional)
-- 🌐 Deployed frontend on Netlify
+- **Frontend**: React.js, Tailwind CSS
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+- **Authentication**: JWT
+- **Deployment**: Netlify (Frontend), Railway (Backend)
 
----
+## 📦 Features
 
-## 🛠 Tech Stack
+- 🔐 User Signup/Login with JWT Authentication
+- 📚 Browse all books
+- 🔍 Search books by title
+- 🛒 Add/Remove books to/from cart
+- ❤️ Wishlist support
+- 📦 Admin features: Add/Edit/Delete books
+- 📱 Responsive design with Tailwind CSS
 
-### Frontend
-- React
-- Vite
-- React Router
-- TailwindCSS (or your preferred styling)
-- Axios
+## 📁 Folder Structure
 
-### Backend
-- Node.js
-- Express.js
-- MongoDB (via Mongoose)
-
----
+BookHeaven/
+│
+├── BookHeaven-Client-main/    # Frontend (React)
+│
+└── BookHeaven-Server-main/    # Backend (Node/Express)
