@@ -1,27 +1,53 @@
-# 📚 BookHeaven
+# 📚 BookHeaven – MERN Book Store with Admin Panel
 
-**BookHeaven** is a full-stack MERN (MongoDB, Express, React, Node.js) application that allows users to browse, search, and manage books. It includes user authentication, a dynamic frontend with Tailwind CSS, and a secure backend API.
+A full-featured MERN stack Book Store web application with both **user** and **admin** functionality. Users can browse, search, and order books, while admins can manage books, users, and orders via a protected dashboard.
+
 
 ## 🌐 Live Demo
 
 🔗 [Visit BookHeaven](https://bookheaven-project.netlify.app/)
 
-## 🛠️ Tech Stack
+## 🚀 Tech Stack
 
-- **Frontend**: React.js, Tailwind CSS
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
-- **Deployment**: Netlify (Frontend)
+## 🔹 Frontend (Client)
+- **React.js**
+- **Tailwind CSS**
+- **React Router DOM**
+- **Axios**
+- **React Toastify**
+- **Heroicons**
 
-## 📦 Features
+### 🔹 Backend (Server)
+- **Node.js**
+- **Express.js**
+- **MongoDB**
+- **Mongoose**
+- **JWT (jsonwebtoken)**
+- **bcryptjs**
+- **dotenv**
+- **cors**
 
-- 🔐 User Signup/Login with JWT Authentication
-- 📚 Browse all books
-- 🔍 Search books by title
-- 🛒 Add/Remove books to/from cart
-- ❤️ Wishlist support
-- 📦 Admin features: Add/Edit/Delete books
-- 📱 Responsive design with Tailwind CSS
+## 🛠️ Features
+
+### 👤 User
+- Browse books with images and descriptions
+- Search and filter books
+- Add to cart and checkout
+- View order history
+- Secure login/register (JWT-based)
+
+### 🛡️ Admin
+- Admin dashboard (protected route)
+- Add / edit / delete books
+- Manage users
+- View all orders
+- Upload book images
+
+## 🔐 Authentication
+
+- JWT-based authentication
+- User and Admin roles
+- Protected routes for both frontend and backend
 
 ## 📁 Folder Structure
 
